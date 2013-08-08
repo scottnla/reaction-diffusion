@@ -248,8 +248,8 @@ obj/i686Release/src/main.o: src/main.cpp src/testApp.h \
  ../../../libs/openFrameworks/video/ofVideoPlayer.h \
  ../../../libs/openFrameworks/video/ofGstVideoPlayer.h \
  ../../../libs/openFrameworks/3d/ofCamera.h \
- ../../../libs/openFrameworks/3d/ofEasyCam.h \
- ../../../libs/openFrameworks/app/ofAppGlutWindow.h \
+ ../../../libs/openFrameworks/3d/ofEasyCam.h src/tweener.h \
+ src/ofxSwapBuffer.h ../../../libs/openFrameworks/app/ofAppGlutWindow.h \
  ../../../libs/openFrameworks/app/ofAppBaseWindow.h
 
 src/testApp.h:
@@ -785,6 +785,10 @@ src/testApp.h:
 ../../../libs/openFrameworks/3d/ofCamera.h:
 
 ../../../libs/openFrameworks/3d/ofEasyCam.h:
+
+src/tweener.h:
+
+src/ofxSwapBuffer.h:
 
 ../../../libs/openFrameworks/app/ofAppGlutWindow.h:
 

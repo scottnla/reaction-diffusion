@@ -256,7 +256,8 @@ obj/linux64/Release/src/testApp.o: src/testApp.cpp src/testApp.h \
  ../../../libs/openFrameworks/video/ofVideoPlayer.h \
  ../../../libs/openFrameworks/video/ofGstVideoPlayer.h \
  ../../../libs/openFrameworks/3d/ofCamera.h \
- ../../../libs/openFrameworks/3d/ofEasyCam.h
+ ../../../libs/openFrameworks/3d/ofEasyCam.h src/tweener.h \
+ src/ofxSwapBuffer.h
 
 src/testApp.h:
 
@@ -807,3 +808,7 @@ src/testApp.h:
 ../../../libs/openFrameworks/3d/ofCamera.h:
 
 ../../../libs/openFrameworks/3d/ofEasyCam.h:
+
+src/tweener.h:
+
+src/ofxSwapBuffer.h:

@@ -12,7 +12,7 @@
 using namespace std;
 
 Tweener::Tweener() {
-    this->duration = 2.f;
+    this->duration = 120.f;
     this->cTime = 0;
     this->state = INIT;
 }
